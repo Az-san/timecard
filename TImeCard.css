@@ -1,0 +1,75 @@
+/* CSS */
+.button {
+  border: none;
+  border-radius: 50%; /* 丸いボタン */
+  padding: 15px 30px; /* ボタンのサイズ調整 */
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.2s; /* ボタンのアニメーション */
+}
+
+.button:hover {
+  transform: scale(1.1); /* ホバー時にボタンが少し大きくなる */
+}
+
+.start-button {
+  background-color: #9acd32; /* 緑色 */
+}
+
+.end-button {
+  background-color: #808000; /* 赤色 */
+}
+
+.reset-button {
+  background-color: #696969; /* 青色 */
+}
+
+
+/* CSS */
+#timer {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000; /* 黒色 */
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* かわいいフォント */
+}
+
+.bunny {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url('https://th.bing.com/th/id/OIP.r_9gmrr-DabOM36rlQX8UwAAAA?rs=1&pid=ImgDetMain') no-repeat;
+  animation: hop 2s linear infinite;
+}
+
+@keyframes hop {
+  0% { left: 100%; }
+  100% { left: -50px; }
+}
+
+
+/* CSS */
+.compensation {
+  border: 2px dotted #FFFAFA; /* 点線の四角 */
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #6B8E23; /* オリーブ色 */
+}
+
+
+/* CSS */
+body {
+  background: url('https://th.bing.com/th/id/OIP.qF7p3Xc3Jm7LRhuvn9SkOAHaNJ?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
